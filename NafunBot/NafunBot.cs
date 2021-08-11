@@ -6,13 +6,17 @@ namespace NafunBot
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Enter a command: ");
 
-            string command = Console.ReadLine();
+
+            while (true)
+            {
+                Console.WriteLine("Enter a command: ");
+
+                string command = Console.ReadLine();
             
-            var myCommand = CommandFactory.create(command);
-            Console.WriteLine(myCommand.executeCommand(null));
+                var myCommand = CommandFactory.create(command);
+                Console.WriteLine(myCommand.executeCommand(null));
+            }
             
         }
     }
