@@ -22,7 +22,6 @@ namespace NafunBot
             {
                 return null;
             }
-
         }
     }
 }

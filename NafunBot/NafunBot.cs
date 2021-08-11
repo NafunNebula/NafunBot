@@ -6,8 +6,8 @@ namespace NafunBot
     {
         static void Main(string[] args)
         {
-
-
+            Bot bot = new Bot();
+            
             while (true)
             {
                 Console.WriteLine("Enter a command: ");

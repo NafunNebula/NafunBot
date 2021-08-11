@@ -17,9 +17,7 @@ namespace NafunBot
             else
             {
                 return coinFlip = "tails";
-
             }
-
         }
     }
 }
